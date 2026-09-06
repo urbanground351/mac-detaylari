@@ -72,14 +72,12 @@ Proje içerisinde hazır bir GitHub Actions iş akışı bulunmaktadır (`.githu
 - **Manuel Çalıştırma**: GitHub repo sayfasında **Actions** sekmesi -> **Update Matches Data** -> **Run workflow** butonu ile istenildiği an tetiklenebilir.
 - **Otomatik Commit**: Yeni maç ve özet verilerini çekip `data/matches.json` dosyasına commit edip depoya geri pushlar.
 
-### Projeyi GitHub'a Yükleme Adımları:
+### Projeyi GitHub'a Yükleme:
 
-1. GitHub'da yeni bir repository oluşturun (örneğin: `flashscore-scraper`).
-2. Yerel projenizi GitHub reponuza bağlayıp pushlayın:
-   ```powershell
-   git remote add origin https://github.com/<kullanici-adiniz>/<repo-adiniz>.git
-   git push -u origin main
-   ```
+```powershell
+git remote add origin https://github.com/urbanground351/mac-detaylari.git
+git push -u origin main
+```
 3. **Önemli İzin Ayarı**: GitHub Actions'ın `data/matches.json` dosyasını depoya geri kaydedebilmesi için:
    - GitHub deponuzda: **Settings** -> **Actions** -> **General**
    - Aşağı kaydırıp **Workflow permissions** bölümünü bulun.
