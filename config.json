@@ -1,0 +1,19 @@
+{
+  "allowed_country": "Turkey",
+  "allowed_competitions": [
+    "Super Lig",
+    "1. Lig",
+    "2. Lig",
+    "3. Lig",
+    "Turkiye Kupasi",
+    "Turkish Cup"
+  ],
+  "fixture_urls": [
+    "https://www.flashscore.com/football/turkey/super-lig/fixtures/",
+    "https://www.flashscore.com/football/turkey/1-lig/fixtures/"
+  ],
+  "days_ahead": 7,
+  "request_delay_seconds": 1,
+  "timeout_seconds": 30
+}
+

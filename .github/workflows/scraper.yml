@@ -1,0 +1,49 @@
+﻿name: Update Matches Data
+
+on:
+  schedule:
+    # Runs every 8 hours: at 00:00, 08:00, 16:00 UTC
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers & dependencies
+        run: |
+          playwright install --with-deps chromium
+
+      - name: Run Flashscore scraper
+        run: |
+          python scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/matches.json
+          if git diff --staged --quiet; then
+            echo "No changes detected in data/matches.json"
+          else
+            git commit -m "Automated update of matches data [skip ci]"
+            git push
+          fi
