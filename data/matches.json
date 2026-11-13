@@ -1714,5 +1714,16 @@
     "home_team": "Mardin 1969",
     "away_team": "Batman Petrolspor",
     "summary": null
+  },
+  {
+    "match_id": "UwCfSezo",
+    "url": "https://www.flashscore.com/match/football/igdir-fk-pQPEA10Q/umraniyespor-tvvIEKkc/?mid=UwCfSezo",
+    "scraped_at": "2026-11-13T21:47:53.323904+00:00",
+    "tournament": "1. Lig",
+    "round": "Round 15",
+    "match_time": "2026-11-20 17:00",
+    "home_team": "Igdir FK",
+    "away_team": "Umraniyespor",
+    "summary": null
   }
 ]
