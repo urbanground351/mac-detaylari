@@ -1718,7 +1718,7 @@
   {
     "match_id": "UwCfSezo",
     "url": "https://www.flashscore.com/match/football/igdir-fk-pQPEA10Q/umraniyespor-tvvIEKkc/?mid=UwCfSezo",
-    "scraped_at": "2026-11-14T14:45:44.419094+00:00",
+    "scraped_at": "2026-11-14T20:24:48.905428+00:00",
     "tournament": "1. Lig",
     "round": "Round 15",
     "match_time": "2026-11-20 17:00",
@@ -1729,7 +1729,7 @@
   {
     "match_id": "KtIZlPFi",
     "url": "https://www.flashscore.com/match/football/genclerbirligi-GOPqBIRK/gaziantep-ITkIKZ7q/?mid=KtIZlPFi",
-    "scraped_at": "2026-11-14T14:45:33.894390+00:00",
+    "scraped_at": "2026-11-14T20:24:34.326905+00:00",
     "tournament": "Super Lig",
     "round": "Round 12",
     "match_time": "2026-11-21 10:30",
@@ -1740,7 +1740,7 @@
   {
     "match_id": "hzQmRLNp",
     "url": "https://www.flashscore.com/match/football/amedspor-EHdgkFvm/rizespor-EFRnJdkr/?mid=hzQmRLNp",
-    "scraped_at": "2026-11-14T14:45:37.477961+00:00",
+    "scraped_at": "2026-11-14T20:24:38.253703+00:00",
     "tournament": "Super Lig",
     "round": "Round 12",
     "match_time": "2026-11-21 13:00",
@@ -1751,7 +1751,7 @@
   {
     "match_id": "0KJkosFG",
     "url": "https://www.flashscore.com/match/football/galatasaray-riaqqurF/samsunspor-pSc6z7bf/?mid=0KJkosFG",
-    "scraped_at": "2026-11-14T14:45:40.875247+00:00",
+    "scraped_at": "2026-11-14T20:24:41.683549+00:00",
     "tournament": "Super Lig",
     "round": "Round 12",
     "match_time": "2026-11-21 13:00",
@@ -1762,7 +1762,7 @@
   {
     "match_id": "Ov44pedT",
     "url": "https://www.flashscore.com/match/football/istanbulspor-as-bwbQIDxd/keciorengucu-tOinx4lk/?mid=Ov44pedT",
-    "scraped_at": "2026-11-14T14:45:47.804369+00:00",
+    "scraped_at": "2026-11-14T20:24:52.355778+00:00",
     "tournament": "1. Lig",
     "round": "Round 15",
     "match_time": "2026-11-21 10:30",
@@ -1773,7 +1773,7 @@
   {
     "match_id": "nk3yafBM",
     "url": "https://www.flashscore.com/match/football/mardin-1969-v7Q0MP8s/bandirmaspor-8rZvLOl2/?mid=nk3yafBM",
-    "scraped_at": "2026-11-14T14:45:51.824180+00:00",
+    "scraped_at": "2026-11-14T20:24:55.958507+00:00",
     "tournament": "1. Lig",
     "round": "Round 15",
     "match_time": "2026-11-21 10:30",
@@ -1784,12 +1784,34 @@
   {
     "match_id": "xO5dnHRG",
     "url": "https://www.flashscore.com/match/football/kayserispor-8pwUEwoc/sariyer-fNtKGmxb/?mid=xO5dnHRG",
-    "scraped_at": "2026-11-14T14:45:55.177119+00:00",
+    "scraped_at": "2026-11-14T20:24:59.455139+00:00",
     "tournament": "1. Lig",
     "round": "Round 15",
     "match_time": "2026-11-21 13:00",
     "home_team": "Kayserispor",
     "away_team": "Sariyer",
+    "summary": null
+  },
+  {
+    "match_id": "nyIcqLqT",
+    "url": "https://www.flashscore.com/match/football/kocaelispor-hfvQIzKf/fenerbahce-MsbmracL/?mid=nyIcqLqT",
+    "scraped_at": "2026-11-14T20:24:45.326130+00:00",
+    "tournament": "Super Lig",
+    "round": "Round 12",
+    "match_time": "2026-11-21 16:00",
+    "home_team": "Kocaelispor",
+    "away_team": "Fenerbahce",
+    "summary": null
+  },
+  {
+    "match_id": "dp4tjaSi",
+    "url": "https://www.flashscore.com/match/football/f-karagumruk-Cv7CWW8n/boluspor-WpwUHfZ0/?mid=dp4tjaSi",
+    "scraped_at": "2026-11-14T20:25:03.149060+00:00",
+    "tournament": "1. Lig",
+    "round": "Round 15",
+    "match_time": "2026-11-21 16:00",
+    "home_team": "Karagumruk",
+    "away_team": "Boluspor",
     "summary": null
   }
 ]
